@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+canvas{
+    padding:0;
+    margin-top:-40px;
+    max-height:600px;
+}
+
+
+/* Extra small devices */
+@media screen and (max-width: 767px) {
+	
+	canvas{
+		max-width: 350px;
+		min-height: 450px;
+	}
+
+}
